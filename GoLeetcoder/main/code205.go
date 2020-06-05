@@ -1,12 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 //code 205
 func main(){
-	fmt.Println(isIsomorphic("abba","abab"))
+	fmt.Println(1 ^ 1,1 | 1,1 & 1)
 }
 
 //同构字符串
