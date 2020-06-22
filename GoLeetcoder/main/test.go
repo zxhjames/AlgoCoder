@@ -18,8 +18,9 @@ func main(){
 	//fmt.Println(float64(1)/float64(7))
 	//b,_ := strconv.ParseFloat(fmt.Sprintf("%.4f",a),64)
 	//fmt.Println(b)
-	tm,_:=time.Parse("01/02/2006","06/01/2020")
-	fmt.Println(tm.Unix())
+	//tm,_:=time.Parse("01/02/2006","06/01/2020")
+	//fmt.Println(tm.Unix())
+	fmt.Println(time.Now().Format("2006-01"))
 
 }
 func test(){
