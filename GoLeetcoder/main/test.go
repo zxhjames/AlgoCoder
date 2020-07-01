@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 	"sync"
+	"strconv"
 )
 
 func main(){
@@ -20,7 +21,9 @@ func main(){
 	//fmt.Println(b)
 	//tm,_:=time.Parse("01/02/2006","06/01/2020")
 	//fmt.Println(tm.Unix())
-	fmt.Println(time.Now().Format("2006-01"))
+	//var a = []int{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}
+	//fmt.Println(a[20:])
+	fmt.Println(fmt.Sprintf("%02s",strconv.Itoa(13)))
 
 }
 func test(){
